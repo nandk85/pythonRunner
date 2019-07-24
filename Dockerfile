@@ -1,6 +1,6 @@
 FROM python
 
-RUN pip install PyYaml lxml
+RUN pip install PyYaml
 RUN pip install python-gitlab jira gitpython bs4 html5lib
 
 # Disable Host Key verification.
